@@ -16,7 +16,7 @@
 export default {
   name: 'Counter',
   props: {
-    since: Object
+    since: Date
   },
   data() {
     return {
@@ -46,6 +46,7 @@ export default {
     formatNum: num => (num < 10 ? "0" + num : num),
     timePassed() {
       const distance = new Date() - this.since
+      console.log(this.since)
 
       this.days = this.formatNum(
         Math.floor(distance / this._days)
