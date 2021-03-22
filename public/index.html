@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.png">
+
     <title>Can I go to Japan Today?</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+    <meta property="og:title" content="Can I go to Japan Today?">
+    <meta property="og:description" content="Raising awareness on the situation of Workers, students and spouses stranded out of Japan due to the entry ban.">
+    <meta property="og:image" content="http://image.thum.io/get/ogImage/http://canigotojapan.today">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://image.thum.io/get/ogImage/http://canigotojapan.today" />
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>
