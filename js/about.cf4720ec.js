@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(e,t,n){"use strict";n.r(t);var s=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},a=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"about container"},[n("h1",[e._v("Help us raise awareness")]),n("section",[e._v(" Raising awareness on the situation of Workers, students and spouses stranded out of Japan due to the entry ban. "),n("br"),e._v(" 入国禁止で日本に入れない外国人配偶者、学生、労働者の状況について日本の方々に知っていただきたいです ")])])}],r=n("2877"),o={},u=Object(r["a"])(o,s,a,!1,null,null,null);t["default"]=u.exports}}]);
-//# sourceMappingURL=about.6a050fd9.js.map
+//# sourceMappingURL=about.cf4720ec.js.map
