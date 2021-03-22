@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--    <img alt="Vue logo" src="../assets/logo.png">-->
+    <h1 id="no">NO</h1>
+    <Counter :since="since"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Counter from '@/components/Counter.vue'
+import moment from 'moment-timezone'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Counter,
+  },
+  data() {
+    return {
+      since: moment.tz(new Date("2021-1-4"), "Asia/Tokyo")
+    }
   }
 }
 </script>
+
+<style>
+#no {
+  font-size: 10em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+</style>
