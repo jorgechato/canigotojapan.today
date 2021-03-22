@@ -29,5 +29,6 @@ export default {
   font-size: 10em;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-top: .2em;
 }
 </style>
