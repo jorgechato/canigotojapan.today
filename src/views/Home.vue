@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      since: moment.tz(new Date("2021-1-4"), "Asia/Tokyo")
+      since: moment.tz("2021-01-04 00:00", "Asia/Tokyo")
     }
   }
 }
